@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041B7CBB19819A5A0037DAAF /* Balloon.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B7CBA19819A5A0037DAAF /* Balloon.m */; };
+		042B5CDF19819807002D5550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B5CDE19819807002D5550 /* Foundation.framework */; };
+		042B5CE119819807002D5550 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B5CE019819807002D5550 /* CoreGraphics.framework */; };
+		042B5CE319819807002D5550 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B5CE219819807002D5550 /* UIKit.framework */; };
+		042B5CE519819807002D5550 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B5CE419819807002D5550 /* SpriteKit.framework */; };
+		042B5CEB19819807002D5550 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 042B5CE919819807002D5550 /* InfoPlist.strings */; };
+		042B5CED19819807002D5550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B5CEC19819807002D5550 /* main.m */; };
+		042B5CF119819807002D5550 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B5CF019819807002D5550 /* PBAppDelegate.m */; };
+		042B5CF419819807002D5550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B5CF219819807002D5550 /* Main.storyboard */; };
+		042B5CF719819807002D5550 /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B5CF619819807002D5550 /* PBViewController.m */; };
+		042B5CFA19819807002D5550 /* PBGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B5CF919819807002D5550 /* PBGameScene.m */; };
+		042B5CFE19819807002D5550 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B5CFD19819807002D5550 /* Images.xcassets */; };
+		042B5D0519819807002D5550 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B5D0419819807002D5550 /* XCTest.framework */; };
+		042B5D0619819807002D5550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B5CDE19819807002D5550 /* Foundation.framework */; };
+		042B5D0719819807002D5550 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B5CE219819807002D5550 /* UIKit.framework */; };
+		042B5D0F19819807002D5550 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 042B5D0D19819807002D5550 /* InfoPlist.strings */; };
+		042B5D1119819807002D5550 /* Pushy_BallonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B5D1019819807002D5550 /* Pushy_BallonTests.m */; };
+		04BDFD161981C68400E813F5 /* Air.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFD141981C68400E813F5 /* Air.sks */; };
+		04BDFD1B1981C76700E813F5 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFD1A1981C76700E813F5 /* bubble.png */; };
+		04BDFD1E1981D01300E813F5 /* PBParallaxScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDFD1C1981D01300E813F5 /* PBParallaxScrolling.m */; };
+		04BDFD201981D2EE00E813F5 /* balloonShreds.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFD1F1981D2EE00E813F5 /* balloonShreds.png */; };
+		04BDFD231981D30600E813F5 /* BalloonPop.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFD211981D30600E813F5 /* BalloonPop.sks */; };
+		04BDFD271981D77200E813F5 /* PBGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDFD261981D77200E813F5 /* PBGameOverViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042B5D0819819807002D5550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042B5CD319819806002D5550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042B5CDA19819806002D5550;
+			remoteInfo = "Pushy Ballon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041B7CB919819A5A0037DAAF /* Balloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balloon.h; sourceTree = "<group>"; };
+		041B7CBA19819A5A0037DAAF /* Balloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Balloon.m; sourceTree = "<group>"; };
+		042B5CDB19819806002D5550 /* Pushy Balloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushy Balloon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B5CDE19819807002D5550 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		042B5CE019819807002D5550 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		042B5CE219819807002D5550 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		042B5CE419819807002D5550 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		042B5CE819819807002D5550 /* Pushy Balloon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pushy Balloon-Info.plist"; sourceTree = "<group>"; };
+		042B5CEA19819807002D5550 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		042B5CEC19819807002D5550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042B5CEE19819807002D5550 /* Pushy Balloon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pushy Balloon-Prefix.pch"; sourceTree = "<group>"; };
+		042B5CEF19819807002D5550 /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		042B5CF019819807002D5550 /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		042B5CF319819807002D5550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042B5CF519819807002D5550 /* PBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
+		042B5CF619819807002D5550 /* PBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
+		042B5CF819819807002D5550 /* PBGameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBGameScene.h; sourceTree = "<group>"; };
+		042B5CF919819807002D5550 /* PBGameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBGameScene.m; sourceTree = "<group>"; };
+		042B5CFD19819807002D5550 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		042B5D0319819807002D5550 /* Pushy BalloonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pushy BalloonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B5D0419819807002D5550 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		042B5D0C19819807002D5550 /* Pushy BalloonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pushy BalloonTests-Info.plist"; sourceTree = "<group>"; };
+		042B5D0E19819807002D5550 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		042B5D1019819807002D5550 /* Pushy_BallonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pushy_BallonTests.m; sourceTree = "<group>"; };
+		04BDFD141981C68400E813F5 /* Air.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Air.sks; sourceTree = "<group>"; };
+		04BDFD1A1981C76700E813F5 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		04BDFD1C1981D01300E813F5 /* PBParallaxScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBParallaxScrolling.m; sourceTree = "<group>"; };
+		04BDFD1D1981D01300E813F5 /* PBParallaxScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBParallaxScrolling.h; sourceTree = "<group>"; };
+		04BDFD1F1981D2EE00E813F5 /* balloonShreds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = balloonShreds.png; path = ../balloonShreds.png; sourceTree = "<group>"; };
+		04BDFD211981D30600E813F5 /* BalloonPop.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BalloonPop.sks; sourceTree = "<group>"; };
+		04BDFD251981D77200E813F5 /* PBGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGameOverViewController.h; sourceTree = "<group>"; };
+		04BDFD261981D77200E813F5 /* PBGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGameOverViewController.m; sourceTree = "<group>"; };
+		04CD5D8E1981B64200F26416 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042B5CD819819806002D5550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B5CE119819807002D5550 /* CoreGraphics.framework in Frameworks */,
+				042B5CE319819807002D5550 /* UIKit.framework in Frameworks */,
+				042B5CE519819807002D5550 /* SpriteKit.framework in Frameworks */,
+				042B5CDF19819807002D5550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B5D0019819807002D5550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B5D0519819807002D5550 /* XCTest.framework in Frameworks */,
+				042B5D0719819807002D5550 /* UIKit.framework in Frameworks */,
+				042B5D0619819807002D5550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042B5CD219819806002D5550 = {
+			isa = PBXGroup;
+			children = (
+				042B5CE619819807002D5550 /* Pushy Ballon */,
+				042B5D0A19819807002D5550 /* Pushy BallonTests */,
+				042B5CDD19819806002D5550 /* Frameworks */,
+				042B5CDC19819806002D5550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042B5CDC19819806002D5550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042B5CDB19819806002D5550 /* Pushy Balloon.app */,
+				042B5D0319819807002D5550 /* Pushy BalloonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042B5CDD19819806002D5550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042B5CDE19819807002D5550 /* Foundation.framework */,
+				042B5CE019819807002D5550 /* CoreGraphics.framework */,
+				042B5CE219819807002D5550 /* UIKit.framework */,
+				042B5CE419819807002D5550 /* SpriteKit.framework */,
+				042B5D0419819807002D5550 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		042B5CE619819807002D5550 /* Pushy Ballon */ = {
+			isa = PBXGroup;
+			children = (
+				04BDFD1C1981D01300E813F5 /* PBParallaxScrolling.m */,
+				04BDFD1D1981D01300E813F5 /* PBParallaxScrolling.h */,
+				04BDFD1A1981C76700E813F5 /* bubble.png */,
+				042B5CEF19819807002D5550 /* PBAppDelegate.h */,
+				042B5CF019819807002D5550 /* PBAppDelegate.m */,
+				042B5CF219819807002D5550 /* Main.storyboard */,
+				042B5CF519819807002D5550 /* PBViewController.h */,
+				042B5CF619819807002D5550 /* PBViewController.m */,
+				042B5CF819819807002D5550 /* PBGameScene.h */,
+				042B5CF919819807002D5550 /* PBGameScene.m */,
+				04BDFD141981C68400E813F5 /* Air.sks */,
+				04BDFD1F1981D2EE00E813F5 /* balloonShreds.png */,
+				042B5CFD19819807002D5550 /* Images.xcassets */,
+				042B5CE719819807002D5550 /* Supporting Files */,
+				041B7CB919819A5A0037DAAF /* Balloon.h */,
+				041B7CBA19819A5A0037DAAF /* Balloon.m */,
+				04CD5D8E1981B64200F26416 /* Constants.h */,
+				04BDFD211981D30600E813F5 /* BalloonPop.sks */,
+				04BDFD251981D77200E813F5 /* PBGameOverViewController.h */,
+				04BDFD261981D77200E813F5 /* PBGameOverViewController.m */,
+			);
+			path = "Pushy Ballon";
+			sourceTree = "<group>";
+		};
+		042B5CE719819807002D5550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042B5CE819819807002D5550 /* Pushy Balloon-Info.plist */,
+				042B5CE919819807002D5550 /* InfoPlist.strings */,
+				042B5CEC19819807002D5550 /* main.m */,
+				042B5CEE19819807002D5550 /* Pushy Balloon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042B5D0A19819807002D5550 /* Pushy BallonTests */ = {
+			isa = PBXGroup;
+			children = (
+				042B5D1019819807002D5550 /* Pushy_BallonTests.m */,
+				042B5D0B19819807002D5550 /* Supporting Files */,
+			);
+			path = "Pushy BallonTests";
+			sourceTree = "<group>";
+		};
+		042B5D0B19819807002D5550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042B5D0C19819807002D5550 /* Pushy BalloonTests-Info.plist */,
+				042B5D0D19819807002D5550 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042B5CDA19819806002D5550 /* Pushy Balloon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042B5D1419819807002D5550 /* Build configuration list for PBXNativeTarget "Pushy Balloon" */;
+			buildPhases = (
+				042B5CD719819806002D5550 /* Sources */,
+				042B5CD819819806002D5550 /* Frameworks */,
+				042B5CD919819806002D5550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pushy Balloon";
+			productName = "Pushy Ballon";
+			productReference = 042B5CDB19819806002D5550 /* Pushy Balloon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042B5D0219819807002D5550 /* Pushy BalloonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042B5D1719819807002D5550 /* Build configuration list for PBXNativeTarget "Pushy BalloonTests" */;
+			buildPhases = (
+				042B5CFF19819807002D5550 /* Sources */,
+				042B5D0019819807002D5550 /* Frameworks */,
+				042B5D0119819807002D5550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042B5D0919819807002D5550 /* PBXTargetDependency */,
+			);
+			name = "Pushy BalloonTests";
+			productName = "Pushy BallonTests";
+			productReference = 042B5D0319819807002D5550 /* Pushy BalloonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042B5CD319819806002D5550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JackCable;
+				TargetAttributes = {
+					042B5CDA19819806002D5550 = {
+						DevelopmentTeam = W9L85QEFSW;
+					};
+					042B5D0219819807002D5550 = {
+						TestTargetID = 042B5CDA19819806002D5550;
+					};
+				};
+			};
+			buildConfigurationList = 042B5CD619819806002D5550 /* Build configuration list for PBXProject "Pushy Balloon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042B5CD219819806002D5550;
+			productRefGroup = 042B5CDC19819806002D5550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042B5CDA19819806002D5550 /* Pushy Balloon */,
+				042B5D0219819807002D5550 /* Pushy BalloonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042B5CD919819806002D5550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B5CEB19819807002D5550 /* InfoPlist.strings in Resources */,
+				042B5CFE19819807002D5550 /* Images.xcassets in Resources */,
+				04BDFD201981D2EE00E813F5 /* balloonShreds.png in Resources */,
+				04BDFD231981D30600E813F5 /* BalloonPop.sks in Resources */,
+				04BDFD161981C68400E813F5 /* Air.sks in Resources */,
+				04BDFD1B1981C76700E813F5 /* bubble.png in Resources */,
+				042B5CF419819807002D5550 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B5D0119819807002D5550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B5D0F19819807002D5550 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042B5CD719819806002D5550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDFD1E1981D01300E813F5 /* PBParallaxScrolling.m in Sources */,
+				042B5CFA19819807002D5550 /* PBGameScene.m in Sources */,
+				042B5CF119819807002D5550 /* PBAppDelegate.m in Sources */,
+				04BDFD271981D77200E813F5 /* PBGameOverViewController.m in Sources */,
+				042B5CF719819807002D5550 /* PBViewController.m in Sources */,
+				042B5CED19819807002D5550 /* main.m in Sources */,
+				041B7CBB19819A5A0037DAAF /* Balloon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B5CFF19819807002D5550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B5D1119819807002D5550 /* Pushy_BallonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042B5D0919819807002D5550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042B5CDA19819806002D5550 /* Pushy Balloon */;
+			targetProxy = 042B5D0819819807002D5550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042B5CE919819807002D5550 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042B5CEA19819807002D5550 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		042B5CF219819807002D5550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042B5CF319819807002D5550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042B5D0D19819807002D5550 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042B5D0E19819807002D5550 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042B5D1219819807002D5550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		042B5D1319819807002D5550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042B5D1519819807002D5550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pushy Ballon/Pushy Balloon-Prefix.pch";
+				INFOPLIST_FILE = "Pushy Ballon/Pushy Balloon-Info.plist";
+				PRODUCT_NAME = "Pushy Balloon";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		042B5D1619819807002D5550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pushy Ballon/Pushy Balloon-Prefix.pch";
+				INFOPLIST_FILE = "Pushy Ballon/Pushy Balloon-Info.plist";
+				PRODUCT_NAME = "Pushy Balloon";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		042B5D1819819807002D5550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pushy Ballon.app/Pushy Ballon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pushy Ballon/Pushy Ballon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pushy BallonTests/Pushy BalloonTests-Info.plist";
+				PRODUCT_NAME = "Pushy BalloonTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		042B5D1919819807002D5550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pushy Ballon.app/Pushy Ballon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pushy Ballon/Pushy Ballon-Prefix.pch";
+				INFOPLIST_FILE = "Pushy BallonTests/Pushy BalloonTests-Info.plist";
+				PRODUCT_NAME = "Pushy BalloonTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042B5CD619819806002D5550 /* Build configuration list for PBXProject "Pushy Balloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B5D1219819807002D5550 /* Debug */,
+				042B5D1319819807002D5550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042B5D1419819807002D5550 /* Build configuration list for PBXNativeTarget "Pushy Balloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B5D1519819807002D5550 /* Debug */,
+				042B5D1619819807002D5550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042B5D1719819807002D5550 /* Build configuration list for PBXNativeTarget "Pushy BalloonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B5D1819819807002D5550 /* Debug */,
+				042B5D1919819807002D5550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042B5CD319819806002D5550 /* Project object */;
+}
